@@ -1,0 +1,79 @@
+[
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\app.py",
+    "line": 6,
+    "content": "API_KEY = \"sk_test_12345EXPOSEDKEY67890abcdef\"",
+    "type": "pattern",
+    "severity": "high"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\app.py",
+    "line": 6,
+    "content": "12345EXPOSEDKEY67890abcdef",
+    "type": "entropy",
+    "severity": "medium"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\app.py",
+    "line": 6,
+    "content": "API_KEY = \"sk_test_12345EXPOSEDKEY67890abcdef\"",
+    "type": "env",
+    "severity": "medium"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 2,
+    "content": "API_KEY = \"sk_test_1234567890abcdef\"",
+    "type": "pattern",
+    "severity": "high"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 8,
+    "content": "AWS_ACCESS_KEY_ID = \"AKIAFAKEACCESSKEY1234\"",
+    "type": "pattern",
+    "severity": "high"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 11,
+    "content": "# Bearer token (fake)",
+    "type": "pattern",
+    "severity": "high"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 12,
+    "content": "BEARER_TOKEN = \"Bearer faketoken-12345-ABCDE-67890-ZYXWV\"",
+    "type": "pattern",
+    "severity": "high"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 9,
+    "content": "abcdEFGHijklMNOPqrstUVWXyz1234567890",
+    "type": "entropy",
+    "severity": "medium"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 18,
+    "content": "QWErtyUIOPasdfGHJKLzxcvBNM1234567890+/=",
+    "type": "entropy",
+    "severity": "medium"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 2,
+    "content": "API_KEY = \"sk_test_1234567890abcdef\"",
+    "type": "env",
+    "severity": "medium"
+  },
+  {
+    "file": "C:/Users/keato/Desktop/Projects_local/test_project\\config.py",
+    "line": 12,
+    "content": "BEARER_TOKEN = \"Bearer faketoken-12345-ABCDE-67890-ZYXWV\"",
+    "type": "env",
+    "severity": "medium"
+  }
+]

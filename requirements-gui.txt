@@ -1,0 +1,14 @@
+# CodeSafe GUI Requirements
+# Install with: pip install -r requirements-gui.txt
+
+# Core dependencies
+colorama>=0.4.6
+
+# GUI framework
+PySide6>=6.5.0
+
+# Build tools
+PyInstaller>=5.13.0
+
+# Optional: For better packaging
+auto-py-to-exe>=2.40.0

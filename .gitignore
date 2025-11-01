@@ -1,0 +1,102 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+venv.bak/
+venv-*/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.pytest_cache/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+wheelhouse/
+
+# Logs and runtime files
+*.log
+*.out
+*.pid
+*.sock
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MyPy / linters
+.mypy_cache/
+.pyre/
+.pylint.d/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~.nib
+*.orig
+
+# Node (if frontend/tools added)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Secret / env / credentials (don't accidentally commit real secrets)
+.env
+.env.local
+.env.*.local
+secrets.*
+secret-*.txt
+credentials.*
+*.key
+*.pem
+
+# CodeSafe / project-specific outputs you mentioned
+results.json
+result.json
+findings.json
+finds.json
+finds-*.json
+*.sarif
+*.sarif.json
+report-*.json
+scan-results.json
+
+# CI artifacts
+*.appveyor/*
+.circleci/*
+.github/workflows/*
+
+# Misc
+coverage.xml
+test-results.xml
+htmlcov/
